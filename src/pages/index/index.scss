@@ -1,0 +1,53 @@
+@import "~taro-ui/dist/style/components/divider.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.swiper-img {
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+  }
+
+.feature-ico {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: white;
+    color: gray;
+    line-height: 35px;
+}
+
+.title-items-list {
+    background-color: white;
+    margin-top: 5px;
+    line-height: 35px;
+    font-size: 12px;
+    color: gray;
+}
+.title-tag {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.title-ico {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.scroll-rec-items {
+    width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+.items-cover {
+    width: 170px;
+    height: 250px;
+    margin-left: 15px;
+    border-radius: 3px;
+}
